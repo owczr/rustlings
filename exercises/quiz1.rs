@@ -13,10 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+ fn calculate_price_of_apples(quantity: i16) -> i16 {
+    let price = if quantity < 41 {
+        quantity * 2
+    } else {
+        quantity
+    };
+    return price;
+ }
 
 // Don't modify this function!
 #[test]

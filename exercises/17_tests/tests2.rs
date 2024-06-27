@@ -6,12 +6,22 @@
 // Execute `rustlings hint tests2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
+
+fn increment(a: i32) -> i32 {
+    a + 1
+}
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn you_can_assert_eq() {
-        assert_eq!();
+        let a = 1;
+        let target = 2;
+        let result = increment(a);
+        assert_eq!(target, result);
     }
 }
+
