@@ -7,9 +7,5 @@
 
 
 fn main() {
-<<<<<<< Updated upstream:exercises/00_intro/intro2.rs
-    printline!("Hello there!")
-=======
     println!("Hello {}!", "World");
->>>>>>> Stashed changes:exercises/intro/intro2.rs
 }
